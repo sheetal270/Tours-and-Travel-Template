@@ -9,211 +9,40 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"> 
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>            
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">            
-            
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">    
 
+<link href="https://fonts.googleapis.com/css2?family=Faster+One&family=New+Rocker&family=Pacifico&family=Song+Myung&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"> 
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-eUOqMYWl5NqN46CG4x5tpw8td5M2MqM8SMfsqX8xS1OJq5SmKtkBc8Tr5DOZDrC" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
   </script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-
-</head>
-     <style>
-
-    .booking-form {
-      max-width: 400px; 
-      border: 1px solid #ccc;
-      padding: 30px;
-      border-radius: 10px;
-       background-color:#EEEADE;
-       margin-top: 70px;
-       
-    }
-#myBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  font-size: 18px;
-  border: none;
-  outline: none;
-  background-color: red;
-  color: white;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
-}
-
-#myBtn:hover {
-  background-color: #555;
-}
-      .form-container {
-      background: url('https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_1280.jpg') center;
-      background-size: cover;
-      height: 100vh; 
-      margin-top: 5;
-    }
-
-    .form-content {
-      background-color: rgba(255, 255, 255, 0.9);
-
-     padding: 30px; 
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      max-width: 600px;
-      margin: auto;
-      border-radius: 10px;
-      width: 100%;
-     
-    }
-    .form-content input,
-    .form-content textarea {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 15px;
-      box-sizing: border-box;
-      border: 1px solid #ced4da;
-      border-radius: 5px;
-      outline: none;
-      transition: border-color 0.3s;
-    }
-
-      #panel, #flip {
-  padding: 5px;
-  text-align: center;
-  background-color: #e5eecc;
-  border: solid 1px #c3c3c3;
-}
-.form-label-outside
-{
-   margin: 0;
-      font-family: 'Poppins', sans-serif; 
-      font-weight: bold;
-      color: #333;
-}
-.form-content button 
-{
-     background-color: #007bff;
-      color: #fff;
-      border: none;
-      padding: 10px 15px;
-      border-radius: 5px;
-      cursor: pointer;
-      font-size: 16px;
-    }
-
-  .form-content input:focus,
-    .form-content textarea:focus {
-      border-color: #007bff;
-    }
-}
- .contact-container {
-      display: flex;
-      justify-content: space-between;
-      padding: 40px;
-    }
-
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script> <!-- Include jQuery -->
+<script src="script.js"></script> 
+<script>
+    AOS.init();
+</script>
    
-      .contact-form {
-      background: url('./images/jm.jpg') center center fixed;
-      background-size: cover;
-      height: 100vh;
-     
-      display: flex;
-      align-items:flex-start;
-      justify-content: revert-layer;
-    
-    }
-
-    .map-container {
-      flex: 1;
-      background-color: #f8f9fa;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-
-    /* Adjust form and map styles as needed */
-    .form-control {
-      margin-bottom: 15px;
-    }
-   .contact-info {
-      display: flex;
-      justify-content: space-between;
-      padding: 50px;
-    }
-
-    .info-card {
-      flex: 1;
-      background-color: #f8f9fa;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-
-    .info-card:hover {
-      transform: scale(1.05);
-      transition: transform 0.3s;
-    }
-    /* Remove the navbar's default rounded borders and increase the bottom margin */ 
-     .img
-     {
-        margin-top:2px;
-     }
-     .nav-link{
-        color: White;
-        font-weight: 900;
-        margin-Right: 50px;
-        font-size: 20px;
-    }
-    .navbar {
-      margin-bottom: 30px;
-      border-radius: 0;
-      margin-top: fixed;
-      background-color:#a56a90;
-    }
-    
-   .tri
-{
-  height: 200px;
-  object-fit: cover;
-}
-  .h1
-  {
-  font-family: 'Bebas Neue', sans-serif;
-       font-weight: bold;
-       font-weight: 700;
-    }
-.content {
-      flex: 1;
-    }
-
-    .footer {
-      background-color: #343a40;
-      color: white;
-      padding: 20px 0;
-
-    }
-  
-  </style>
 </head>
+
 <body>
 
   <nav class="navbar navbar-expand-sm navbar-white">
   <div class="container">
     <a class="navbar-brand" href="#">
-    <img class="img img-fluid" width="100px" src="https://logomaker.designfreelogoonline.com/media/productdesigner/logo/resized/000816__travel_agency_logo_design_templates_free_travel_logo_maker-01.png" alt ="Logo">
+    <img class="img img-fluid" width="70px" src="https://logomaker.designfreelogoonline.com/media/productdesigner/logo/resized/000816__travel_agency_logo_design_templates_free_travel_logo_maker-01.png" alt ="Logo">
       </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
@@ -244,106 +73,159 @@
     </div>
     </nav>
 
-  <!-- Booking Form on the right side -->
-  <div class="form-container mt-3">
-    <div class="row justify-content-end">
-      <div class="col-md-4">
-        <div class="booking-form-container">
-        <div class="booking-form">
-          <h2 class="text-center mb-4" style="font-family:'Lobster', sans-serif;">Tour Booking Form</h2>
-          <form>
-            <!-- Your booking form fields go here -->
-            <div class="mb-3 mt-4">
-              <label for="name">Name</label>
-              <input type="text" class="form-control" id="name" name="name" required>
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+     
+      <img src="./images/t3.jpg" class="d-block w-100 img-fluid" alt="..." style="width:100%;height: 600px; ">
+      <div class="carousel-caption d-none d-md-block animate__animated animate__fadeInUp">
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-md-6">
+              <h2 class="mb-4" style="font-family: 'Lobster', sans-serif;font-weight: bold; font-size: 40px; color: orange;">Explore Our New Collection</h2>
+              <p>Discover the latest trends in fashion.</p>
             </div>
-            <div class="mb-3">
-              <label for="email">Email</label>
-              <input type="email" class="form-control" id="email" name="email" required>
+              <div class="col-12 col-md-4">
+              <div class="row justify-content-center">
+              <!-- Your booking form and related elements go here -->
+              <div class="booking-form" style="background-color: rgba(0, 0, 0, 0.7); padding: 20px; margin: 20px 0;">
+                <h2 class="text-center mb-4" style="font-family: 'Lobster', sans-serif; ">Booking Form</h2>
+                <form>
+                  <!-- Your booking form fields go here -->
+                  <div class="mb-3">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                  </div>
+                   <div class="mb-3">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+          </div>
+
+                  <!-- Add other form fields as needed -->
+                  <button type="submit" class="btn btn-primary mt-4">Submit</button>
+                </form>
+              </div>
             </div>
-            <div class="mb-3">
-              <label for="phone">Phone Number</label>
-              <input type="tel" class="form-control" id="phone" name="phone" required>
-            </div>
-            <div class="mb-3">
-              <label for="date">Preferred Tour Date</label>
-              <input type="date" class="form-control" id="date" name="date" required>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
+          </div>
         </div>
       </div>
     </div>
+    </div>
+
+     <div class="carousel-item">
+      <img src="./images/c2.png" class="d-block w-100 img-fluid" alt="..." style="width:100%;height: 600px; ">
+      <div class="carousel-caption d-none d-md-block animate__animated animate__fadeInUp">
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-md-6">
+              <h2 class="mb-4" style="font-family: 'Lobster', sans-serif;font-weight: bold; font-size: 40px; color: orange;">Explore Our New Collection</h2>
+              <p>Discover the latest trends in fashion.</p>
+            </div>
+              <div class="col-12 col-md-4">
+              <div class="row justify-content-center">
+              <!-- Your booking form and related elements go here -->
+              <div class="booking-form" style="background-color: rgba(0, 0, 0, 0.7); padding: 20px; margin: 20px 0;">
+                <h2 class="text-center mb-4" style="font-family: 'Lobster', sans-serif; ">Booking Form</h2>
+                <form>
+                  <!-- Your booking form fields go here -->
+                  <div class="mb-3">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                  </div>
+                   <div class="mb-3">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+          </div>
+
+                  <!-- Add other form fields as needed -->
+                  <button type="submit" class="btn btn-primary mt-4">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  
+
+
+      <div class="carousel-item">
+      <img src="./images/g7.jpg" class="d-block w-100 img-fluid" alt="..." style="width:100%;height: 600px; ">
+      <div class="carousel-caption d-none d-md-block animate__animated animate__fadeInUp">
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-md-6">
+              <h2 class="mb-4" style="font-family: 'Lobster', sans-serif; font-weight: bold; font-size: 40px; color: orange;">Explore Our New Collection</h2>
+              <p>Discover the latest trends in fashion.</p>
+            </div>
+              <div class="col-12 col-md-4">
+              <div class="row justify-content-center">
+              <!-- Your booking form and related elements go here -->
+              <div class="booking-form" style="background-color: rgba(0, 0, 0, 0.7);padding: 20px; margin: 20px 0;">
+                <h2 class="text-center mb-4" style="font-family: 'Lobster', sans-serif;">Booking Form</h2>
+                <form>
+                  <!-- Your booking form fields go here -->
+                  <div class="mb-3">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                  </div>
+                   <div class="mb-3">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+          </div>
+
+                  <!-- Add other form fields as needed -->
+                  <button type="submit" class="btn btn-primary mt-4">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
   </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
 
-
-
-
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            <div class="text-center">
-            <h1 class="m-4" style="color:blueviolet; font-family: 'Lobster', sans-serif;">Keeping Every Travel <span style="color:firebrick;
-          font-weight: bold; font-family: 'Lobster', sans-serif; text-align: center;"> Experience Awesome</h1>
-        </div>
-            </div>
  
- <!-- Carousel -->
- <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-
-  <!-- Indicators/dots -->
-  <div class="carousel-indicators">
-   <section id="home">
-    <!-- Indicators -->
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></button>
-    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"></button>
-    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"></button>
-    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3"></button>
-    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4"></button>
-
-    </div>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-    <div class="carousel-item active">
-        <img src="./images/cc3.jpg" alt="Los Angeles" class="mx-auto d-block" style="width:80%;height: 700px;">
-      </div>
-
-      <div class="carousel-item">
-        <img src="./images/g3.jpeg" alt="Chicago" class="mx-auto d-block" style="width:80%;height: 700px;">
-      </div>
-    
-      <div class="carousel-item">
-        <img src="./images/cc6.jpg" alt="New york" class="mx-auto d-block" style="width:80%;height: 700px;">
-      </div>
-
-      <div class="carousel-item">
-        <img src="./images/cc7.jpg" alt="New york" class="mx-auto d-block" style="width:80%;height: 700px;">
-      </div>
-    
-    <div class="carousel-item">
-        <img src="./images/cc5.jpg" alt="New york" class="mx-auto d-block" style="width:80%;height: 700px;">
-      </div>
 
 
-    <!-- Left and right controls -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </button>
-  </div>
-  </div>
 
-<!-- Carousel end-->
+
 
 <!-- About 4 - Bootstrap Brain Component -->
   <div class="container">
-<section id="about us">
+<section id="about us" class="fade-in">
     <div class="row">
-      <div class="col-12 col-md-12 col-lg-12">
+      <div class="col-12 col-md-12 col-lg-12 animate__animated animate__fadeInLeft" data-aos="fade-left">
+ 
     
      <h1 class="m-4" style="color:blueviolet;
            font-family: 'Lobster', sans-serif; font-weight: bold; text-align: center;">About <span style="color:firebrick;
@@ -360,7 +242,8 @@
 
   <div class="container ">
     <div class="row gy-3 gy-md-4 gy-lg-0">
-      <div class="col-12 col-lg-6">
+     <div class="col-12 col-lg-6 animate__animated animate__fadeInRight" data-aos="fade-right">
+ 
         <div class="card bg-light p-3 m-0">
           <div class="row gy-3 gy-md-0 align-items-md-center">
             <div class="col-md-5">
@@ -376,7 +259,8 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-lg-6">
+      <div class="col-12 col-lg-6 animate__animated animate__fadeInRight" data-aos="fade-left">
+ 
         <div class="card bg-light p-3 m-0">
           <div class="row gy-3 gy-md-0 align-items-md-center">
             <div class="col-md-5">
@@ -405,85 +289,114 @@
 
 </span></div>
 
-<div class="container mt-4 mb-5 me-5"> 
+<div class="container  mb-1 me-5"> 
 <section id="services">  
    
-  <div class="row">
-    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 text-center">
-      <div class="card text-center" style="width: 300px; height: 430px;">
+  <div class="row text-center">
+    <div class="col-12 col-md-4 mb-2 mb-md-0">
+       
+      <div class="card text-center" style="width: 300px; height: 350px;">
+        <div class="work" >
         <img src="./images/g1.jpg" class="card-img-top tri" alt="Image">
-        <div class="card-body "> 
-    <h5 class="card-title">Singapore</h5>
-    <p class="card-text p-2">Singapore Gardens By The Bay
-Gardens by the bay are man-made incredible nature park premises in the bay area.</p>
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">View More</button>
-  </div></div></div>
+        <div class="layer">
+        <!-- <div class="card-body ">  -->
+    <h3 style="font-family: New Rocker, system-ui;">Singapore</h3>
 
-    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 text-center">
-      <div class="card text-center" style="width: 300px; height: 430px;">
+    <p class="card-text p-2"style="text-align: justify;">Singapore Gardens By The Bay
+Gardens by the bay are man-made incredible nature park premises in the bay area.</p>
+<a href="package_details_singapore.html" class="btn btn-primary">View More</a>
+    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">View More</button> -->
+  </div></div></div></div>
+  
+  
+  
+  <div class="col-12 col-md-4 mb-2 mb-md-0">
+      <div class="card text-center" style="width: 300px; height: 350px;">
+        <div class="work" >
         <img src="./images/g2.jpg" class="card-img-top tri" alt="Image">
-        <div class="card-body">
-           <h5 class="card-title">KERALA</h5>
-    <p class="card-text p-2">Singapore Gardens By The Bay
+        <!-- <div class="card-body"> -->
+           <div class="layer">
+            <h3 style="font-family: New Rocker, system-ui;">Kerala</h3>
+
+    <p class="card-text p-2" style="text-align: justify;">Singapore Gardens By The Bay
 Gardens by the bay are man-made incredible nature park premises in the bay area.</p>
-    <a href="#" class="btn btn-primary">View More</a>
+<a href="package_details_singapore.html" class="btn btn-primary">View More</a>
       </div>
     </div>
   </div>
+</div>
+   
+
     
-    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 text-center">
-      <div class="card text-center" style="width: 300px; height: 430px;">
-        <img src="./images/g4.jpg" class="card-img-top tri" alt="Image">
-        <div class="card-body">
-           <h5 class="card-title">DARGEELING</h5>
-    <p class="card-text p-2">Singapore Gardens By The Bay
+    <div class="col-12 col-md-4" >
+      <div class="card text-center" style="width: 300px; height: 350px;">
+        <div class="work" >
+        <img src="./images/cc8.webp" class="card-img-top tri" alt="Image">
+         
+          <div class="layer">
+            <h3 style="font-family: New Rocker, system-ui;">TAJ MAHAL</h3>
+                       <p class="card-text p-2" style="text-align: justify;">Singapore Gardens By The Bay
+Gardens by the bay are man-made incredible nature park premises in the bay area.</p>
+<a href="package_details_singapore.html" class="btn btn-primary">View More</a>
+                    </div>
+                </div>
+        <!-- <div class="card-body"> -->
+          <!--  <h5 class="card-title">DARGEELING</h5>
+    <p class="card-text p-2" style="text-align: justify;">Singapore Gardens By The Bay
 Gardens by the bay are man-made incredible nature park premises in the bay area.</p>
     <a href="#" class="btn btn-primary">View More</a>
-      </div>
+      </div> -->
     </div>
   </div>
-</div></div></section></div>
+</div></section></div>
 
 
 
-<div class="container mt-3 mb-5 me-5">    
-  <div class="row">
-    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 text-center">
-      <div class="card text-center" style="width: 300px; height: 430px;">
+<div class="container mt-4 mb-1 me-5">    
+  <div class="row text-center">
+    <div class="col-12 col-md-4 mb-2 mb-md-0">
+      <div class="card text-center" style="width: 300px; height: 350px;">
+        <div class="work" >
         <img src="./images/g7.jpg" class="card-img-top tri" alt="Image" >
-        <div class="card-body">
-           <h5 class="card-title">RAJASTHAN</h5>
-    <p class="card-text p-2">Singapore Gardens By The Bay
+        <!-- <div class="card-body"> -->
+           <div class="layer">
+            <h3 style="font-family: New Rocker, system-ui;">RAJASTHAN</h3>
+    <p class="card-text p-2" style="text-align: justify;">Singapore Gardens By The Bay
 Gardens by the bay are man-made incredible nature park premises in the bay area.
                 </p>
-    <a href="#" class="btn btn-primary">View More</a>
-      </div>
+                <a href="package_details_singapore.html" class="btn btn-primary">View More</a>
+      </div></div>
     </div>
   </div>
 
-    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 text-center">
-       <div class="card text-center" style="width: 300px; height: 430px;">
-        <img src="./images/g8.jpg" class="card-img-top" alt="Image">
-        <div class="card-body">
-           <h5 class="card-title">JAMMU KASHMIR</h5>
-    <p class="card-text p-2">Singapore Gardens By The Bay
+    <div class="col-12 col-md-4 mb-2 mb-md-0">
+       <div class="card text-center" style="width: 300px; height: 350px;">
+        <div class="work" >
+        <img src="./images/g10.jpg" class="card-img-top tri" alt="Image">
+        <!-- <div class="card-body"> -->
+          <div class="layer">
+            <h3 style="font-family: New Rocker, system-ui;">KEDARNATH</h3>
+    <p class="card-text p-2" style="text-align: justify;">Singapore Gardens By The Bay
 Gardens by the bay are man-made incredible nature park premises in the bay area.</p>
-    <a href="#" class="btn btn-primary">View More</a>
+<a href="package_details_singapore.html" class="btn btn-primary">View More</a>
       </div>
     </div>
-      </div>
+      </div></div>
       
 
-    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 text-center">
-     <div class="card text-center" style="width: 300px; height: 430px;">
-        <img src="./images/g9.jpg" class="card-img-top" alt="Image" style="height: 250px;">
-        <div class="card-body">
-           <h5 class="card-title">GOLDEN TEMPLE PUNJAB</h5>
-    <p class="card-text p-2">Singapore Gardens By The Bay
+    <div class="col-12 col-md-4">
+     <div class="card text-center" style="width: 300px; height: 350px;">
+       <div class="work" >
+        <img src="./images/g9.jpg" class="card-img-top tri" alt="Image">
+        <div class="layer">
+        <!-- <div class="card-body"> -->
+          <h3 style="font-family: New Rocker, system-ui;">GOLDEN TEMPLE PUNJAB</h3>
+    <p class="card-text p-2" style="text-align: justify;">Singapore Gardens By The Bay
 Gardens by the bay are man-made incredible nature park premises in the bay area.</p>
-    <a href="#" class="btn btn-primary">View More</a>
+   <a href="package_details_singapore.html" class="btn btn-primary">View More</a>
       </div>
     </div>
+</div>
 </div>
 </div>
 </div>
@@ -508,12 +421,13 @@ Gardens by the bay are man-made incredible nature park premises in the bay area.
     </div>
   
   <!-- The slideshow/carousel -->
-  <div class="carousel-inner bg-light">
+  <div class="carousel-inner bg-light" style="background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(241, 43, 165, 0.548)); ">
 
     <div class="carousel-item active">
-        <div class="container">
-        <div class="row">
+        <div class="container" >
+                  <div class="row">
         <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 p-5 text-center ">
+          
           <img class="img img-fluid rounded-start" src="./images/cl1.webp " style="width=10px; height: 200px;">
           <div class="quote-boxed-text mt-3">
                   <p style="text-align: justify;">I wanted to thank you very much for planning the trip to France for my boyfriend and me. It was amazing and exceeded my expectations! We had a wonderful time and were very pleased with the accommodations in Paris and Bayeux. Our private/small tour guides were fantastic! I appreciate all the effort to get us to the Eiffel Tower finally. </p>
@@ -570,7 +484,91 @@ Gardens by the bay are man-made incredible nature park premises in the bay area.
 </div>
 </span></h2></div>
   
-  <div class="container mt-5 ">
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div class="text-center">
+            <h1 class="m-4" style="color:blueviolet; font-family: 'Lobster', sans-serif;">Keeping Every Travel <span style="color:firebrick;
+          font-weight: bold; font-family: 'Lobster', sans-serif; text-align: center;"> Experience Awesome</h1>
+        </div>
+            </div>
+
+
+
+ <!-- Carousel -->
+ <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+   <section id="home">
+    <!-- Indicators -->
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4"></button>
+
+    </div>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="./images/cc3.jpg" alt="Los Angeles" class="mx-auto d-block" style="width:80%;height: 500px;">
+        <div class="carousel-caption animate__animated animate__fadeInUp">
+        <h3 style="font-family: 'Oswald', sans-serif; color: white;">Explore Beautiful Destinations</h3>
+        <p style="font-family: Madimi One, sans-serif;">Plan your dream vacation with us!</p>
+      </div>
+    </div>
+      
+
+      <div class="carousel-item">
+        <img src="./images/g3.jpeg" alt="Chicago" class="mx-auto d-block" style="width:80%;height: 500px;">
+        <div class="carousel-caption animate__animated animate__fadeInDown">
+        <h3  style="color: white;">Explore Beautiful Destinations</h3>
+        <p style="font-family: Madimi One, sans-serif;">Plan your dream vacation with us!</p>
+      </div>
+      </div>
+    
+      <div class="carousel-item">
+        <img src="./images/cc6.jpg" alt="New york" class="mx-auto d-block" style="width:80%;height: 500px;">
+        <div class="carousel-caption animate__animated animate__fadeInDown">
+        <h3 style="color: white;">Explore Beautiful Destinations</h3>
+        <p style="font-family: Madimi One, sans-serif;">Plan your dream vacation with us!</p>
+      </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="./images/cc10.jpg" alt="New york" class="mx-auto d-block" style="width:80%;height: 500px;">
+        <div class="carousel-caption animate__animated animate__fadeInDown">
+        <h3  style="color: white;">Explore Beautiful Destinations</h3>
+        <p style="font-family: Madimi One, sans-serif;">Plan your dream vacation with us!</p>
+      </div>
+      </div>
+    
+    <div class="carousel-item">
+        <img src="./images/cc9.webp" alt="New york" class="mx-auto d-block" style="width:80%;height: 500px;">
+        <div class="carousel-caption animate__animated animate__fadeInDown">
+        <h3  style="color: white;">Explore Beautiful Destinations</h3>
+        <p style="font-family: Madimi One, sans-serif;">Plan your dream vacation with us!</p>
+      </div>
+      </div>
+
+
+    <!-- Left and right controls -->
+   <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  </div>
+
+<!-- Carousel end-->
+
+  <div class="container mt-5 mb-3">
     <h1 class="m-4" style="color:blueviolet;
            font-family: 'Lobster', sans-serif; font-weight: bold; text-align: center;">Contact <span style="color:firebrick;
             font-family: 'Lobster', sans-serif; font-weight: bold; text-align: center;"> Us</h1>
@@ -597,33 +595,9 @@ Gardens by the bay are man-made incredible nature park premises in the bay area.
     </div>
   </div>
 
-  
-  <div class="container mt-5">
-    <h1 class="m-1" style="color:blueviolet;
-           font-family: 'Lobster', sans-serif; font-weight: bold; text-align: center;">Contact <span style="color:firebrick;
-            font-family: 'Lobster', sans-serif; font-weight: bold; text-align: center;"> Information</h1>
-
-    <div class="contact-info">
-      <div class="info-card mb-3 me-4 ">
-        <h4>Address</h4>
-        <p>Your Street, City, Country</p>
-      </div>
-      <div class="info-card mb-4 me-4">
-        <h4>Phone</h4>
-        <p>+1 (123) 456-7890</p>
-      </div>
-      <div class="info-card mb-4 me-4">
-        <h4>Email</h4>
-        <p>info@example.com</p>
-      </div>
-      <div class="info-card mb-4">
-        <h4>Opening Hours</h4>
-        <p>Mon-Fri: 9 AM - 6 PM<br>Sat-Sun: Closed</p>
-      </div>
-    </div>
-  </div>
-</span></div>
 <button onclick="topFunction()" id="myBtn" type="button" class="btn btn-primary"><span class="bi bi-arrow-up-circle-fill"></span></button>
+
+
  <script>
 // Get the button
 let mybutton = document.getElementById("myBtn");
@@ -661,11 +635,12 @@ function topFunction() {
         </div>
         <div class="col-md-4">
           <h5 style="font-family: 'Lobster', sans-serif;">Quick Links</h5>
+
           <ul class="list-unstyled">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="home" class="text-white">Home</a></li>
+            <li><a href="about"class="text-white">About Us</a></li>
+            <li><a href="services"class="text-white">Services</a></li>
+            <li><a href="contact"class="text-white">Contact</a></li>
           </ul>
         </div>
         <div class="col-md-4">
@@ -685,5 +660,5 @@ function topFunction() {
     </div>
   </footer>
 
-</body>
+  </body>
 </html>
