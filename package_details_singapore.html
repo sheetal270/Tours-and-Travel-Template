@@ -72,8 +72,9 @@
           </div>
           <div class="col">
             <h5>Location: Singapore Gardens<br>Package: 10 Days and 9 Nights</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel metus eu ex blandit viverra nec nec justo. Sed nec augue nec nisl posuere euismod sit amet vitae turpis. Integer eget aliquam ipsum.</p>
-          </div>
+            <p>Singapore, known for its modern skyline and diverse culture, offers a unique blend of attractions, including Gardens by the Bay, Sentosa Island, and Marina Bay Sands. This package provides a comprehensive 10-day exploration of Singapore's top destinations.</p>
+            <h6>Price: 60000 RS</h6>
+            </div>
         </div>
       </div>
     </div>
@@ -87,8 +88,9 @@
           </div>
           <div class="col">
             <h5>Location: Kerala Backwaters<br>Package: 7 Days and 6 Nights</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel metus eu ex blandit viverra nec nec justo. Sed nec augue nec nisl posuere euismod sit amet vitae turpis. Integer eget aliquam ipsum.</p>
-          </div>
+            <p>Kerala, often referred to as "God's Own Country," is known for its serene backwaters, lush greenery, and tranquil beaches. This package offers a 7-day journey through Kerala's enchanting landscapes, including visits to the backwaters, hill stations, and wildlife sanctuaries.</p>
+            <h6>Price: 20000 RS</h6>
+                    </div>
         </div>
       </div>
     </div>
@@ -102,8 +104,9 @@
           </div>
           <div class="col">
             <h5>Location: Agra, India<br>Package: 3 Days and 2 Nights</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel metus eu ex blandit viverra nec nec justo. Sed nec augue nec nisl posuere euismod sit amet vitae turpis. Integer eget aliquam ipsum.</p>
-          </div>
+            <p>The Taj Mahal, one of the Seven Wonders of the World, is a UNESCO World Heritage Site located in Agra, India. This package offers a 2-day tour to explore the magnificent Taj Mahal, along with other historical and cultural attractions in Agra.</p>
+            <h6>Price: 35000 RS</h6>
+                    </div>
         </div>
       </div>
     </div>
@@ -121,7 +124,8 @@
           </div>
           <div class="col">
             <h5>Location: Rajasthan, India<br>Package: 5 Days and 4 Nights</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel metus eu ex blandit viverra nec nec justo. Sed nec augue nec nisl posuere euismod sit amet vitae turpis. Integer eget aliquam ipsum.</p>
+            <p>Rajasthan, known as the "Land of Kings," is famous for its majestic forts, palaces, and rich cultural heritage. This package offers a 5-day tour covering popular destinations such as Jaipur, Udaipur, Jodhpur, and more.</p>       
+            <h6>Price: 30000 RS</h6>
           </div>
         </div>
       </div>
@@ -136,7 +140,8 @@
           </div>
           <div class="col">
             <h5>Location: Kedarnath, India<br>Package: 3 Days and 2 Nights</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel metus eu ex blandit viverra nec nec justo. Sed nec augue nec nisl posuere euismod sit amet vitae turpis. Integer eget aliquam ipsum.</p>
+            <p>Kedarnath, nestled in the Himalayas, is a sacred pilgrimage site for Hindus. This package offers a 3-day spiritual journey to Kedarnath Temple, surrounded by breathtaking mountain scenery.</p>
+            <h6>Price: 50000 RS</h6>
           </div>
         </div>
       </div>
@@ -151,193 +156,8 @@
           </div>
           <div class="col">
             <h5>Location: Amritsar, India<br>Package: 2 Days and 1 Night</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel metus eu ex blandit viverra nec nec justo. Sed nec augue nec nisl posuere euismod sit amet vitae turpis. Integer eget aliquam ipsum.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Bootstrap 5 JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
-
-<script>
-  function togglePackage(packageId) {
-    // Hide all package details
-    var packageDetails = document.querySelectorAll('.package-details');
-    packageDetails.forEach(function(item) {
-      item.style.display = 'none';
-    });
-
-    // Show the clicked package details
-    var clickedPackage = document.getElementById(packageId);
-    clickedPackage.style.display = 'block';
-
-    // Adjust column widths
-    var packageCol = document.getElementById(packageId + 'Col');
-    packageCol.classList.remove('col-md-4');
-    packageCol.classList.add('col-md-12');
-  }
-</script>
-
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>All Packages</title>
-  <!-- Bootstrap 5 CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Faster+One&family=New+Rocker&family=Pacifico&family=Song+Myung&family=Teko:wght@300..700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
-  <style>
-    /* Custom CSS */
-    
-    .package-details {
-      display: none;
-    }
-    .package-title {
-      background-image: url('./images/t3.jpg'); /* Add your image URL here */
-      background-size: cover;
-      color: white;
-      padding: 20px;
-      border-radius: 10px;
-      cursor: pointer;
-      font-size: 24px;
-    }
-    .carousel-img {
-      max-height: 400px; /* Adjust the max height of carousel images as needed */
-      width: 100%;
-    }
-    body {
-        background: rgb(146,161,237);
-        background: linear-gradient(90deg, rgba(146,161,237,0.4150035014005602) 0%, rgba(185,127,189,1) 37%, rgba(252,70,107,0.7035189075630253) 51%, rgba(247,165,199,1) 93%);
-        font-size: 18px;
-    }
-    .img-fluid {
-      max-width: 100%;
-      height: auto;
-    }
-    .package-info {
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      background-color: white;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-      max-width: 80%;
-      max-height: 80%;
-      overflow-y: auto;
-    }
-    @media (max-width: 768px) {
-      .package-info {
-        max-width: 90%;
-        max-height: 90%;
-      }
-    }
-  </style>
-</head>
-<body>
-
-<div class="container mt-4">
-  <h1 class="text-center" style="font-family: Piedra, serif;">All Packages</h1>
-  <div class="row">
-    <!-- Package 1: Singapore -->
-    <div id="package1Col" class="col-md-4">
-      <h2 class="package-title text-center mb-3" style="font-family: New Rocker, system-ui; margin: auto;" onclick="togglePackage('package1')">SINGAPORE</h2>
-      <div id="package1" class="package-details">
-        <div class="row align-items-center">
-          <div class="col">
-            <img src="./images/g1.jpg" alt="Singapore Image" class="img-fluid mb-3">
-          </div>
-          <div class="col">
-            <h5>Location: Singapore Gardens<br>Package: 10 Days and 9 Nights</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel metus eu ex blandit viverra nec nec justo. Sed nec augue nec nisl posuere euismod sit amet vitae turpis. Integer eget aliquam ipsum.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Package 2: Kerala -->
-    <div id="package2Col" class="col-md-4">
-      <h2 class="package-title text-center  mb-3" style="font-family: New Rocker, system-ui;  margin: auto;" onclick="togglePackage('package2')">KERALA</h2>
-      <div id="package2" class="package-details">
-        <div class="row align-items-center">
-          <div class="col">
-            <img src="./images/g2.jpg" alt="Kerala Image" class="img-fluid  mb-3">
-          </div>
-          <div class="col">
-            <h5>Location: Kerala Backwaters<br>Package: 7 Days and 6 Nights</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel metus eu ex blandit viverra nec nec justo. Sed nec augue nec nisl posuere euismod sit amet vitae turpis. Integer eget aliquam ipsum.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Package 3: Taj Mahal -->
-    <div id="package3Col" class="col-md-4">
-      <h2 class="package-title text-center  mb-3" style="font-family: New Rocker, system-ui;  margin: auto;" onclick="togglePackage('package3')">TAJ MAHAL</h2>
-      <div id="package3" class="package-details">
-        <div class="row align-items-center">
-          <div class="col">
-            <img src="./images/cc8.webp" alt="Taj Mahal Image" class="img-fluid  mb-3">
-          </div>
-          <div class="col">
-            <h5>Location: Agra, India<br>Package: 3 Days and 2 Nights</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel metus eu ex blandit viverra nec nec justo. Sed nec augue nec nisl posuere euismod sit amet vitae turpis. Integer eget aliquam ipsum.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="container mt-4">
-  <div class="row">
-    <!-- Package 4: Rajasthan -->
-    <div id="package4Col" class="col-md-4">
-      <h2 class="package-title text-center  mb-3" style="font-family: New Rocker, system-ui;  margin: auto;" onclick="togglePackage('package4')">RAJASTHAN</h2>
-      <div id="package4" class="package-details">
-        <div class="row align-items-center">
-          <div class="col">
-            <img src="./images/g7.jpg" alt="Rajasthan Image" class="img-fluid  mb-3">
-          </div>
-          <div class="col">
-            <h5>Location: Rajasthan, India<br>Package: 5 Days and 4 Nights</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel metus eu ex blandit viverra nec nec justo. Sed nec augue nec nisl posuere euismod sit amet vitae turpis. Integer eget aliquam ipsum.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Package 5: Kedarnath -->
-    <div id="package5Col" class="col-md-4">
-      <h2 class="package-title text-center  mb-3" style="font-family: New Rocker, system-ui;  margin: auto;" onclick="togglePackage('package5')">KEDARNATH</h2>
-      <div id="package5" class="package-details">
-        <div class="row align-items-center">
-          <div class="col">
-            <img src="./images/g10.jpg" alt="Kedarnath Image" class="img-fluid  mb-3">
-          </div>
-          <div class="col">
-            <h5>Location: Kedarnath, India<br>Package: 3 Days and 2 Nights</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel metus eu ex blandit viverra nec nec justo. Sed nec augue nec nisl posuere euismod sit amet vitae turpis. Integer eget aliquam ipsum.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Package 6: Golden Temple -->
-    <div id="package6Col" class="col-md-4">
-      <h2 class="package-title text-center  mb-3" style="font-family: New Rocker, system-ui;  margin: auto;" onclick="togglePackage('package6')">GOLDEN TEMPLE</h2>
-      <div id="package6" class="package-details">
-        <div class="row align-items-center">
-          <div class="col">
-            <img src="./images/g9.jpg" alt="Golden Temple Image" class="img-fluid  mb-3">
-          </div>
-          <div class="col">
-            <h5>Location: Amritsar, India<br>Package: 2 Days and 1 Night</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel metus eu ex blandit viverra nec nec justo. Sed nec augue nec nisl posuere euismod sit amet vitae turpis. Integer eget aliquam ipsum.</p>
+            <p>The Golden Temple, also known as Sri Harmandir Sahib, is a sacred Sikh shrine in Amritsar, Punjab. This package offers a 2-day spiritual and cultural experience, including a visit to the Golden Temple and Wagah Border.</p>
+            <h6>Price: 40000 RS</h6>
           </div>
         </div>
       </div>
